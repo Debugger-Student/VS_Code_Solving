@@ -26,6 +26,7 @@ public:
     }
 
     void bfs() {
+        
         queue <int> q;
         vector <bool> visited (V, false);
         q.push(0);
